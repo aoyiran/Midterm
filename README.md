@@ -37,7 +37,9 @@ The following hardware components were used:
 *	Photoresistor 
 *	PIR sensor
 The PIR sensor will be the trigger of whole program. Once an object stays in the range of PIR sensor for more than 30 seconds, PrideArt will show the art piece. The photoresistor and piezo will surveillance the surrounding, once noise level or light level reach the warning line, program will shut the present of art work and show a doomed version of that art piece. 
+
 PrideArt will also receive the data from network and do the calculation, when the data size (MB) equal to the number of art work’s size (square inch), program will also show the doomed version and send a message to internet "too much data!".
+
 After 5 seconds of the reaction mechanic was triggered, system will be reset to original state.
 
 
